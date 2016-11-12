@@ -1,0 +1,5 @@
+c:\users\carlos romero\documents\visual studio 2012\Projects\Projeto Integrador\Projeto Integrador\bin\Projeto Integrador.dll
+c:\users\carlos romero\documents\visual studio 2012\Projects\Projeto Integrador\Projeto Integrador\bin\Projeto Integrador.pdb
+c:\users\carlos romero\documents\visual studio 2012\Projects\Projeto Integrador\Projeto Integrador\obj\Debug\Projeto Integrador.csprojResolveAssemblyReference.cache
+c:\users\carlos romero\documents\visual studio 2012\Projects\Projeto Integrador\Projeto Integrador\obj\Debug\Projeto Integrador.dll
+c:\users\carlos romero\documents\visual studio 2012\Projects\Projeto Integrador\Projeto Integrador\obj\Debug\Projeto Integrador.pdb
