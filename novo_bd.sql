@@ -1,3 +1,5 @@
+------------------------------Nome banco de dados: projeto_integrador_improve---------------------------------
+
 create table Usuario(
 	id uniqueidentifier not null,
 	nome varchar(250),
