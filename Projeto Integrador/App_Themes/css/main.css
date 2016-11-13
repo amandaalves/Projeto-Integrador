@@ -160,7 +160,13 @@
   margin-bottom: 0;
   padding: 30px 0 60px 0;
 }
+#upload{
+	margin-left:10%;
+}
+#seusarquivos{
 
+	margin-right:10%;
+}
 #header .navbar-inverse .container{
   position: relative;
 }
@@ -378,7 +384,7 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background-image: url(../../Imagens/home/footer.png);
+  background-image: url(../images/home/footer.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
@@ -506,33 +512,7 @@ ul.sub-menu {
 }
 
 .btn-submit2 {
-  margin-top: 6%;	
-  width: 40%;
-  background-color: #4fcccd;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  text-align: center;
-  border-radius: 3px;
-  margin-left: 70%;
-  border-bottom: 3px solid #2f9697;
-  box-shadow: none;
-  padding: 10px;
-}
-
-.btn-submit2:hover, 
-.btn-submit2:focus{
-  color: #fff;
-  outline: none;
-  box-shadow: none;
-  opacity: .8;
-}
-
-.btn-submit3 {
-  margin-top: 6%;	
-  width: 40%;
+  width: 50%;
   background-color: #83DBDC;
   color: #fff;
   font-size: 14px;
@@ -541,14 +521,14 @@ ul.sub-menu {
   text-transform: uppercase;
   text-align: center;
   border-radius: 3px;
-  margin-left: 65%;
+  margin-top: 2%;
   border-bottom: 3px solid #2f9697;
   box-shadow: none;
   padding: 10px;
 }
 
-.btn-submit3:hover, 
-.btn-submit3:focus{
+.btn-submit2:hover, 
+.btn-submit2:focus{
   color: #fff;
   outline: none;
   box-shadow: none;
@@ -574,7 +554,7 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../../Imagens/home/slider-bg.png) 0 100% repeat-x;
+  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
 }
 
@@ -651,7 +631,7 @@ ul.sub-menu {
 }
 
 #action {
-  background-image: url(../../Imagens/home/tour-bg.png);
+  background-image: url(../images/home/tour-bg.png);
   background-color: #fbfafa;
   background-repeat: repeat-x;
   height: 157px;
@@ -712,8 +692,6 @@ ul.sub-menu {
 }
 
 .single-features {
-  margin-bottom: 3%;
-  margin-top: 3%;
   overflow: hidden;
   padding-top: 65px;
   padding-bottom: 40px;
@@ -761,7 +739,7 @@ ul.sub-menu {
 }
 
 #page-breadcrumb {
-  background-image: url(../../Imagens/home/tour-bg.png);
+  background-image: url(../images/home/tour-bg.png);
   background-color: #fbfafa;
   background-repeat: repeat-x;
   height: 130px;
@@ -789,7 +767,7 @@ ul.sub-menu {
 }
 
 .tour-button {
-  background-image: url(../../Imagens/home/tour-icon2.png);
+  background-image: url(../images/home/tour-icon2.png);
   height: 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -900,12 +878,12 @@ ul.sub-menu {
 
 .right.team-carousel-control {
   right: -50px;
-  background-image: url(../../Imagens/aboutus/right.png);
+  background-image: url(../images/aboutus/right.png);
 }
 
 .left.team-carousel-control {
   left: -50px;
-  background-image: url(../../Imagens/aboutus/left.png);
+  background-image: url(../images/aboutus/left.png);
 }
 
 .team-carousel-control:hover{
@@ -1100,7 +1078,7 @@ ul.elements li > i{
 }
 
 .portfolio-filter {
-  margin: 5px;
+  margin: 80px 0;
   padding: 0;
 }
 
@@ -1139,7 +1117,7 @@ ul.elements li > i{
   left: 0;
   width: 13px;
   height: 16px;
-  background: url(../../Imagens/portfolio/icon.png);
+  background: url(../images/portfolio/icon.png);
   top: 5px;
 }
 
@@ -1162,7 +1140,7 @@ ul.elements li > i{
 }
 
 .pagination li:first-child a{
-  background: url(../../Imagens/portfolio/left.png);
+  background: url(../images/portfolio/left.png);
   background-repeat: no-repeat;
   text-indent: -999999999px;
   background-position: center top 10px;
@@ -1176,7 +1154,7 @@ ul.elements li > i{
 }
 
 .pagination li:first-child a:hover{
-  background: url(../../Imagens/portfolio/left.png);
+  background: url(../images/portfolio/left.png);
   background-position: center top -37px;
   background-repeat: no-repeat;
   -webkit-transition: 300ms;
@@ -1186,7 +1164,7 @@ ul.elements li > i{
 }
 
 .pagination li:last-child a{
-  background: url(../../Imagens/portfolio/right.png);
+  background: url(../images/portfolio/right.png);
   background-repeat: no-repeat;
   text-indent: -999999999px;
   background-position: center top 10px;
@@ -1200,7 +1178,7 @@ ul.elements li > i{
 }
 
 .pagination li:last-child a:hover{
-  background: url(../../Imagens/portfolio/right.png);
+  background: url(../images/portfolio/right.png);
   background-position: center top -37px;
   background-repeat: no-repeat;
   -webkit-transition: 300ms;
@@ -1619,7 +1597,7 @@ Blog Default
   right: 1px;
   content: "";
   top: 15px;
-  background: url(../../Imagens/blog/left.png);
+  background: url(../images/blog/left.png);
   width: 43px;
   height: 54px;
 }
@@ -1633,7 +1611,7 @@ Blog Default
   left: -2px;
   content: "";
   top: 86px;
-  background: url(../../Imagens/blog/right.png);
+  background: url(../images/blog/right.png);
   width: 43px;
   height: 54px;
 }
@@ -1696,7 +1674,7 @@ Blog with right sidebar
   margin-left: 0;
   width: 94px;
   height: 140px;
-  background: url(../../Imagens/blog/blog-arrow.png);
+  background: url(../images/blog/blog-arrow.png);
   -webkit-animation: fadeInLeft 400ms;
   animation: fadeInLeft 400ms;
 }
@@ -2588,22 +2566,22 @@ span.stButton_gradient,
 }
 
 #countdown li.angle-one {
-  background-image: url(../../Imagens/coming-soon1.png);
+  background-image: url(../images/coming-soon1.png);
   left: 120px;
 }
 
 #countdown li.angle-two {
-  background-image: url(../../Imagens/coming-soon2.png);
+  background-image: url(../images/coming-soon2.png);
   left: 40px;
 }
 
 #countdown li.angle-three {
-  background-image: url(../../Imagens/coming-soon3.png);
+  background-image: url(../images/coming-soon3.png);
   right: 40px;
 }
 
 #countdown li.angle-four {
-  background-image: url(../../Imagens/coming-soon4.png);
+  background-image: url(../images/coming-soon4.png);
   right: 120px;
 }
 
@@ -2759,11 +2737,6 @@ span.stButton_gradient,
 {
 	margin-bottom: 3%;
 }
-.config2
-{
-	margin-bottom: 10.5%;
-	margin-top: 10.5%;
-}
 .configedit
 {
 	margin-bottom: 4%;
@@ -2794,13 +2767,4 @@ span.stButton_gradient,
 .conteudoajuda
 {
 	text-align: center;
-}
-.tarefa, .anotacao
-{
-	margin-top: 5%;
-	background-color:#afeeee;
-	min-height: 200px;
-	padding: 1%;
-	text-align: center;
-	font-size: 14pt;
 }

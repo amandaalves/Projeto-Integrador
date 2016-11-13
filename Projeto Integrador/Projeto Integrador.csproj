@@ -137,6 +137,11 @@
     <Compile Include="Config2.aspx.designer.cs">
       <DependentUpon>Config2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DAL\DALAnotacao.cs" />
+    <Compile Include="DAL\DALMochila.cs" />
+    <Compile Include="DAL\DALSala.cs" />
+    <Compile Include="DAL\DALTarefa.cs" />
+    <Compile Include="DAL\DALUsuario.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,6 +163,11 @@
     <Compile Include="Mochila.aspx.designer.cs">
       <DependentUpon>Mochila.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Anotacao.cs" />
+    <Compile Include="Modelo\Mochila.cs" />
+    <Compile Include="Modelo\Sala.cs" />
+    <Compile Include="Modelo\Tarefa.cs" />
+    <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
